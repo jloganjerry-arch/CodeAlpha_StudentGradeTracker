@@ -38,13 +38,13 @@ public class StudentGradeTracker {
 
         double average = (double) total / n;
 
-        System.out.println("\n  STUDENT REPORT ");
+        System.out.println("\n===== STUDENT REPORT =====");
 
         for(int i = 0; i < n; i++) {
             System.out.println(names[i] + " : " + marks[i]);
         }
 
-        
+        System.out.println("----------------------");
         System.out.println("Average = " + average);
         System.out.println("Highest = " + highest);
         System.out.println("Lowest = " + lowest);
